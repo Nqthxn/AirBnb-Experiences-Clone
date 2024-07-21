@@ -49,10 +49,14 @@ section{
 .card-image{
     height:370px;
     border-radius: 15px;
+    max-width: 246px;
 }
 .card-description{
     font-weight: bold;
 }
 .card-container{
     margin-left: 65px;
+}
+.display-cards{
+    display:flex;
 }
