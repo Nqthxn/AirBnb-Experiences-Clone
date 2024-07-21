@@ -38,3 +38,21 @@ section{
 .hero-header, .hero-text{
     margin-left:50px;
 }
+.star{
+    width:32px;
+    margin-right: 8px;
+}
+.review-container{
+    display:flex;
+    align-items: center;
+}
+.card-image{
+    height:370px;
+    border-radius: 15px;
+}
+.card-description{
+    font-weight: bold;
+}
+.card-container{
+    margin-left: 65px;
+}
