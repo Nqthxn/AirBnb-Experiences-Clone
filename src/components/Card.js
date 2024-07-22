@@ -1,19 +1,21 @@
 import star from '../Images/star.png';
 
-function Card(prop){
+function Card(props){
     return(
         <div className="card-container">
-            <div className="image-container">
-                <img src={prop.img} className="card-image"/>
-            </div>
-            <div className="info-container">
-                <p className="review-container">
-                    <img src={star} className="star"/>
-                    <span>{prop.rating}</span>
-                </p>
-                <p className="card-description">{prop.description}</p>
-                <p>{prop.price}</p>
-            </div>
+            <a href={props.link} className="card-link">
+                <div className="image-container">
+                    <img src={props.img} className="card-image"/>
+                </div>
+                <div className="info-container">
+                    <p className="review-container">
+                        <img src={star} className="star"/>
+                        <span>{props.rating}</span>
+                    </p>
+                    <p className="card-description">{props.description}</p>
+                    <p>{props.price}</p>
+                </div>
+            </a>
         </div>
     );
 }

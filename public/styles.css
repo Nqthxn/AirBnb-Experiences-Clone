@@ -56,7 +56,12 @@ section{
 }
 .card-container{
     margin-left: 65px;
+    margin-bottom: 200px;
 }
 .display-cards{
     display:flex;
+}
+.card-link{
+    text-decoration: none;
+    color:inherit;
 }
