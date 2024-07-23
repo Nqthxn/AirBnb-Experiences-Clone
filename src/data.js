@@ -13,10 +13,12 @@ export default [
         rating: "4.93 (1,262) \u2022 Galway",
         description: "Galway's legendary walking tour!",
         price: "From \u20AC 15 / person",
-        link: "https://www.airbnb.ie/experiences/525291?location=Ireland&currentTab=experience_tab&federatedSearchId=b703a05b-9f44-4e57-854a-4539ee18792f&sectionId=2e86d1c6-2f65-43c1-a3ae-d3aa5ba81a3d"
+        link: "https://www.airbnb.ie/experiences/525291?location=Ireland&currentTab=experience_tab&federatedSearchId=b703a05b-9f44-4e57-854a-4539ee18792f&sectionId=2e86d1c6-2f65-43c1-a3ae-d3aa5ba81a3d",
+        openSpots: 53
     },
     {
         id: 2,
+        openSpots: 23,
         img: Image2,
         rating: "4.91 (208) \u2022 Fethard-On-Sea",
         description: "Sea Cave Kayaking Experience",
@@ -26,6 +28,7 @@ export default [
     {
         id: 3,
         img: Image3,
+        openSpots: 0,
         rating: "4.93 (750) \u2022 Dublin",
         description: "Original Dublin Walking Tour",
         price: "From \u20AC 23 / person",
@@ -34,6 +37,7 @@ export default [
     {
         id: 4,
         img: Image4,
+        openSpots: 23, 
         rating: "4.91 (1,012) \u2022 Dublin",
         description: "Irish Food Trail",
         price: "From \u20AC 89 / person",
@@ -42,6 +46,7 @@ export default [
     {
         id: 5,
         img: Image5,
+        openSpots: 0,
         rating: "4.93 (1,262) \u2022 Galway",
         description: "The Irish Dance Experience",
         price: "From \u20AC 30 / person",
@@ -49,6 +54,7 @@ export default [
     },
     {
         id: 6,
+        openSpots: 24,
         img: Image6,
         rating: "4.99 (537) \u2022 Waterville",
         description: "Sheep Herding Demonstration",

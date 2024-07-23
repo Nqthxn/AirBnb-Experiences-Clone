@@ -5,6 +5,7 @@ function Card(props){
         <div className="card-container">
             <a href={props.link} className="card-link">
                 <div className="image-container">
+                    {props.openSpots === 0 && <div className="badge">SOLD OUT</div>}
                     <img src={props.img} className="card-image"/>
                 </div>
                 <div className="info-container">
